@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Restricted Area"
+
+AuthUserFile "/home/wxgkujqw/.htpasswds/regiment/highlanders/passwd"
+
+
+require valid-user

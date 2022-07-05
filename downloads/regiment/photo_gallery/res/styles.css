@@ -1,0 +1,86 @@
+/*
+ * Combined style sheet for the index pages and the slide pages.
+ */
+
+/* Style for all bodies. */
+body {
+	font-family: Times New Romam, Times;
+	font-style: italic;
+	font-style: oblique;
+	font-size: 13px;
+	/*background: #D597C7 url("romance_background.gif");*/
+	color: #5f5f5f;
+}
+
+img {
+	border-color: #5f5f5f;
+}
+
+/* Custom link styles */
+a:active {
+	text-decoration: none;
+	color: #FFAAAA;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #550055;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF0000
+}
+
+a:link {
+	text-decoration: none;
+	color: gray
+}
+
+.comment {
+	font-family: Comic, Times New Romam, Times;
+	font-style: italic;
+	color: blue;
+
+}
+
+/* Align the content of the cells on the index pages to the center and bottom. */
+#index td {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.camera {
+	font-size: 10px;
+}
+
+/* Remove the margin under the images on the index pages. */
+#index .image {
+	margin-left: 2;
+	margin-right: 2;
+	margin-bottom: 0;
+}
+
+/* Don't have margins on the slide pages. */
+body#slide {
+	margin: 0;
+}
+
+/* Highlight the image name on the slide pages. */
+#slide .name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* Header */
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+#imageinfo {
+
+	font-size: 11px;
+}
+

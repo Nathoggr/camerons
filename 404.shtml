@@ -1,0 +1,11 @@
+<html>
+        <head>
+                <title>404 File Not Found - <!--#echo VAR="REQUEST_URI"--></title>
+        </head>
+        <body>
+                <h1>404 File Not Found</h1>
+                <p>The requested file <!--#echo VAR="REQUEST_URI"--> could not be found on this server.  Please check your request and try again.</p>
+                <p>If you feel this was in error please contact <!--#echo var="SERVER_ADMIN"-->.</p>
+                <p align="left"><iframe width="770" height="100%" src="http://4o4notfound.com"></p>
+        </body>
+</html>
